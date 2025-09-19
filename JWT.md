@@ -33,6 +33,7 @@ Ein JWT besteht aus drei Teilen dem Header, Payload und der Signatur. Beim Heade
 
 ## Wie erstelle ich ein JWT Token?
 
+**Maven-Dependency**
 
 
 
