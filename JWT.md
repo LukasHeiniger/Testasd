@@ -35,13 +35,11 @@ Ein JWT besteht aus drei Teilen dem Header, Payload und der Signatur. Beim Heade
 **Was befindet sich im  Payload**
 | Name | Feld | Beschreibung |
 | ---- | ---- | ------------ |
-| Issuer     | iss     |              |
-| Subject     |  sub    |              |
-| Audience     |    aud  |              |
-| Expiration Time     |exp      |              |
-| Not Before     | nbf     |              |
-| Issued At     | ita     |              |
-| JWT ID     | jti     |              |
+| Issuer     | iss     | Beschreibt den Austeller des Tokens             |
+| Subject     |  sub    | Beschreibt, für welches Objekt die Claims gelten, zum Beispiel User mit bestimmter Mail|
+| Issued At     | ita     | Zeit, ab welcher das Token ausgestellt worden ist.|
+| Expiration Time     |exp      | Zeit, ab welcher das Token die gültigkeit verliert.|
+
 
 ```JSON
 {
@@ -52,6 +50,8 @@ Ein JWT besteht aus drei Teilen dem Header, Payload und der Signatur. Beim Heade
 }
 
 ```
+
+**Beachte, dass dies nur ein Beispiel ist, ein JWT Token kann im Payload weitere Felder beinhalten, diese sind aber für den Anfang aussreichend.**
 
 **Was befindet sich in der Signatur**
 
