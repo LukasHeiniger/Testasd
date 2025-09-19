@@ -103,6 +103,11 @@ Gibt an, welcher Dienst das Token ausgestellt hat. Ideal ist es eine eindeutige 
 
 Dies soll eine grobe Idee geben, was für die Konfiguration benötigt wird, jedoch sieht eine solche Konfiguration in einer echte, profesionneller Anwendung deutlich anders aus.
 
+### Erstellen einer JWT-Class
+
+<img width="714" height="641" alt="image" src="https://github.com/user-attachments/assets/3652d962-8527-4e35-b14f-3e6940762414" />
+
+
 
 
 
