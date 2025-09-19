@@ -4,10 +4,10 @@
 
 ## Was ist ein JSON-Web-Token?
 
-Ein JSON-Web-Token kurz JWT ist ein sicherer und Kompakter Token zum Übertragen von Ansprüchen zwischen zwei Parteien. JWT wird häufig für Authentifizierungen und Autorisierungen eingesetzt. 
+Ein JSON-Web-Token, kurz JWT, ist ein sicherer und kompakter Token, der dazu dient, Ansprüche zwischen zwei Parteien zu übertragen. Der Einsatzbereich von JWT umfasst häufig Authentifizierungen und Autorisierungen. 
 
 ## Aufbau eines JWT
-Ein JWT besteht aus drei Teilen dem Header, Payload und der Signatur. Beim Header, handelt es sich um ein JSON Element, welches beschreibt um welchen Token Typ es sich handelt und welche Signaturmethode verwendet wird. 
+Ein JWT ist in drei Segmente unterteilt, nämlich Header, Payload und Signatur. Der Header ist ein Element des JSON-Formats, das den Typ des Tokens sowie die verwendete Signaturmethode beschreibt. Im Payload sind die Claims enthalten, die Aufschluss über die Gültigkeitsdauer des Tokens geben, das Datum seiner Ausstellung sowie weitere relevante Informationen. In der Signatur werden der codierte HEADER und die codierte Nutzlast durch einen geheimen Schlüssel (SecretKey) sowie den im Header angegebenen Signaturalgorithmus signiert.
 
 ### Was befindet sich im Header?
 
