@@ -78,7 +78,7 @@ Auf [Maven Central](https://central.sonatype.com/) findest du die aktuellen Vers
 
 ### Konfiguration von JWT
 
-Im application.properties musst du JWT konfigurieren, dass ist ein Beispiel wie eine basic Konfiguration aussehen kann.
+Im application.properties musst du JWT konfigurieren. Das ist ein Beispiel, wie eine basic Konfiguration aussehen kann.
 
 <img width="473" height="100" alt="image" src="https://github.com/user-attachments/assets/f44abba6-40a4-4e99-83ba-a5f41a8d7aa4" />
 
