@@ -65,17 +65,16 @@ Im application.properties musst du JWT konfigurieren, dass ist ein Beispiel wie 
 
 <img width="473" height="100" alt="image" src="https://github.com/user-attachments/assets/f44abba6-40a4-4e99-83ba-a5f41a8d7aa4" />
 
-**jwt.secret:** Das Secret, das zur Signatur (nicht zur Verschlüsselung) eines Tokens verwendet wird. Dieses Secret darf niemals öffentlich zugänglich sein oder im Versions‑Repository(Bitbucket etc.) gespeichert werden. Wenn ein Angreifer das Secret kennt, kann er gültige Tokens erzeugen und so unberechtigten Zugriff erlangen.
+**jwt.secret:** 
+Das Secret, das zur Signatur (nicht zur Verschlüsselung) eines Tokens verwendet wird. Dieses Secret darf niemals öffentlich zugänglich sein oder im Versions‑Repository(Bitbucket etc.) gespeichert werden. Wenn ein Angreifer das Secret kennt, kann er gültige Tokens erzeugen und so unberechtigten Zugriff erlangen.
 
-**jwt.expiration:** Definiert die länge der Gültigkeit des Tokens die Dauer wird in Milisekunden angegeben im angegeben Beispiel, wäre das Token für eine Stunde gültig. Nach Ablauf der Zeit ist das Token wertlos und nicht mehr zugebrauchen.
+**jwt.expiration:** 
+Definiert die länge der Gültigkeit des Tokens die Dauer wird in Milisekunden angegeben im angegeben Beispiel, wäre das Token für eine Stunde gültig. Nach Ablauf der Zeit ist das Token wertlos und nicht mehr zugebrauchen.
 
-**jwt.issuer:** Gibt an, welcher Dienst das Token ausgestellt hat. Ideal ist es eine eindeutige Bezeichnung, wie zum Beispiel eine URL oder ein aussagekräftiger String.
+**jwt.issuer:** 
+Gibt an, welcher Dienst das Token ausgestellt hat. Ideal ist es eine eindeutige Bezeichnung, wie zum Beispiel eine URL oder ein aussagekräftiger String.
 
-Dies soll eine grobe Idee geben, was für die Konfiguration benötigt wird, jedoch sieht eine solche Konfiguration in einer echten Anwendung deutlich anders aus.
-
-
-
-
+Dies soll eine grobe Idee geben, was für die Konfiguration benötigt wird, jedoch sieht eine solche Konfiguration in einer echte, profesionneller Anwendung deutlich anders aus.
 
 
 
