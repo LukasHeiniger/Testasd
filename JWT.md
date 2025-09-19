@@ -17,4 +17,15 @@ Ein JWT besteht aus drei Teilen dem Header, Payload und der Signatur. Beim Heade
 
 Was befindet sich im Header:
 
-|Name|F
+| Name | Feld | Beschreibung |
+| ---- | ---- | ------------ |
+
+Was befindet sich im  Payload
+| Name | Feld | Beschreibung |
+| ---- | ---- | ------------ |
+
+Was befindet sich in der Signatur
+
+| Name | Feld | Beschreibung |
+| ---- | ---- | ------------ |
+
