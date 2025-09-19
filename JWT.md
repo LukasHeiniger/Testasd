@@ -7,6 +7,8 @@
 Ein JSON-Web-Token kurz JWT ist ein sicherer und Kompakter Token zum Übertragen von Ansprüchen zwischen zwei Parteien. JWT wird häufig für Authentifizierungen und Autorisierungen eingesetzt. JWT ist zwar einfach einzubauen und hat auch viele Vorteile und Nachteile wie zum Beispiel:
 
 | Vorteile | Nachteile |
+| -------- | --------- |
+
 
 
 
