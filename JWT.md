@@ -19,8 +19,8 @@ Ein JWT besteht aus drei Teilen dem Header, Payload und der Signatur. Beim Heade
 
 | Name | Feld | Beschreibung |
 | ---- | ---- | ------------ |
-| Type     | typ     |  Gibt den IANA Median Typ an, bedeutet, welche Art und Format hatben die Daten in diesem falle wäre es application/jwt             |
-| Content Type | cty     | Wird nur benötigt, wenn das JWT im Payload ein anderes JWT mit sich führt ansonsten sollte man darauf verzichten.        |
+| Type     | typ     |  Gibt den IANA Median Typ an, bedeutet, welche Art und Format hat die Daten in diesem falle wäre es application/jwt             |
+| Content Type | cty     | Wird nur benötigt, wenn das JWT im Payload ein anderes JWT mit sich führt, ansonsten sollte man darauf verzichten.        |
 | Algorithmus  | alg     | Definiert die Signaturmethode, welche zum einsatz kommt, Beispiel HMAC mit SHA-256 oder auch RSA mit SHA-256 |
 
 ```JSON
@@ -35,18 +35,13 @@ Ein JWT besteht aus drei Teilen dem Header, Payload und der Signatur. Beim Heade
 **Was befindet sich im  Payload**
 | Name | Feld | Beschreibung |
 | ---- | ---- | ------------ |
-|      |      |              |
-|      |      |              |
-|      |      |              |
-|      |      |              |
-|      |      |              |
-|      |      |              |
-|      |      |              |
-|      |      |              |
-|      |      |              |
-|      |      |              |
-
-
+| Issuer     | iss     |              |
+| Subject     |  sub    |              |
+| Audience     |    aud  |              |
+| Expiration Time     |exp      |              |
+| Not Before     | nbf     |              |
+| Issued At     | ita     |              |
+| JWT ID     | jti     |              |
 
 ```JSON
 {
