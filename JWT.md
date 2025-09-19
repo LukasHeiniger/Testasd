@@ -33,3 +33,12 @@ Ein JWT besteht aus drei Teilen dem Header, Payload und der Signatur. Beim Heade
 
 ## Wie erstelle ich ein JWT Token?
 
+
+
+
+## Wie validiere ich ein JWT Token?
+
+
+
+## Alternativen zu JSON-Web-Token
+
