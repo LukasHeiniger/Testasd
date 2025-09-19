@@ -69,6 +69,12 @@ Im application.properties musst du JWT konfigurieren, dass ist ein Beispiel wie 
 
 **jwt.expiration:** Definiert die länge der Gültigkeit des Tokens die Dauer wird in Milisekunden angegeben im angegeben Beispiel, wäre das Token für eine Stunde gültig. Nach Ablauf der Zeit ist das Token wertlos und nicht mehr zugebrauchen.
 
+**jwt.issuer:** Gibt an, welcher Dienst das Token ausgestellt hat. Ideal ist es eine eindeutige Bezeichnung, wie zum Beispiel eine URL oder ein aussagekräftiger String.
+
+Dies soll eine grobe Idee geben, was für die Konfiguration benötigt wird, jedoch sieht eine solche Konfiguration in einer echten Anwendung deutlich anders aus.
+
+
+
 
 
 
