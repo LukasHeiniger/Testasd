@@ -107,12 +107,11 @@ Dies soll eine grobe Idee geben, was für die Konfiguration benötigt wird, jedo
 
 <img width="682" height="657" alt="image" src="https://github.com/user-attachments/assets/62e017de-fc6e-4a03-9400-45385b7a3844" />
 
-
-
-
-
-
 ## Wie validiere ich ein JWT Token?
+
+https://www.jwt.io/
+
+Auf dieser Webseite kannst du deinen erstellten Token genauer anschauen und dir mit deinem Secret auch einen neuen Funktionstüchtiges Token erstellen.
 
 
 
