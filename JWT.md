@@ -26,7 +26,7 @@ Ein JWT besteht aus drei Teilen dem Header, Payload und der Signatur. Beim Heade
 ```JSON
 
 {
-  "alg": "RS256",
+  "alg": "HS256",
   "typ": "JWT"
 }
 
@@ -48,7 +48,7 @@ Ein JWT besteht aus drei Teilen dem Header, Payload und der Signatur. Beim Heade
 
 
 
-````JSON
+```JSON
 {
   "iss": "LoginService",
   "sub": "test@mail.ch",
@@ -56,7 +56,7 @@ Ein JWT besteht aus drei Teilen dem Header, Payload und der Signatur. Beim Heade
   "exp": 1758274216
 }
 
-````
+```
 
 **Was befindet sich in der Signatur**
 
