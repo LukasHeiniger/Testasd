@@ -65,7 +65,9 @@ Im application.properties musst du JWT konfigurieren, dass ist ein Beispiel wie 
 
 <img width="470" height="91" alt="image" src="https://github.com/user-attachments/assets/949b6e0c-7db0-4686-8fc8-477bcf6f6f36" />
 
-jwt.secret: Das Secret, das zur Signatur (nicht zur Verschlüsselung) eines Tokens verwendet wird. Dieses Secret darf niemals öffentlich zugänglich sein oder im Versions‑Repository(Bitbucket etc.) gespeichert werden. Wenn ein Angreifer das Secret kennt, kann er gültige Tokens erzeugen und so unberechtigten Zugriff erlangen.
+**jwt.secret:** Das Secret, das zur Signatur (nicht zur Verschlüsselung) eines Tokens verwendet wird. Dieses Secret darf niemals öffentlich zugänglich sein oder im Versions‑Repository(Bitbucket etc.) gespeichert werden. Wenn ein Angreifer das Secret kennt, kann er gültige Tokens erzeugen und so unberechtigten Zugriff erlangen.
+
+**jwt.expiration:** Definiert die länge der Gültigkeit des Tokens die Dauer wird in Milisekunden angegeben im angegeben Beispiel, wäre das Token für eine Stunde gültig. Nach Ablauf der Zeit ist das Token wertlos und nicht mehr zugebrauchen.
 
 
 
