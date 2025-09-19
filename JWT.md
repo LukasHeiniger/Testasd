@@ -33,7 +33,29 @@ Ein JWT besteht aus drei Teilen dem Header, Payload und der Signatur. Beim Heade
 
 ## Wie erstelle ich ein JWT Token?
 
-**Maven-Dependency**
+### Maven-Dependency
+
+Füge in deinem pom.xml folgende Dependencies hinzu:
+
+ <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt-api</artifactId>
+            <version>0.11.5</version>
+        </dependency>
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt-impl</artifactId>
+            <version>0.11.5</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt-jackson</artifactId>
+            <version>0.11.5</version>
+            <scope>runtime</scope>
+        </dependency>
+
+
 
 
 
