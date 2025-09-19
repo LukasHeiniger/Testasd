@@ -63,7 +63,7 @@ Auf [Maven Central](https://central.sonatype.com/) findest du die aktuellen Vers
 
 Im application.properties musst du JWT konfigurieren, dass ist ein Beispiel wie eine basic Konfiguration aussehen kann.
 
-<img width="470" height="91" alt="image" src="https://github.com/user-attachments/assets/949b6e0c-7db0-4686-8fc8-477bcf6f6f36" />
+<img width="473" height="100" alt="image" src="https://github.com/user-attachments/assets/f44abba6-40a4-4e99-83ba-a5f41a8d7aa4" />
 
 **jwt.secret:** Das Secret, das zur Signatur (nicht zur Verschlüsselung) eines Tokens verwendet wird. Dieses Secret darf niemals öffentlich zugänglich sein oder im Versions‑Repository(Bitbucket etc.) gespeichert werden. Wenn ein Angreifer das Secret kennt, kann er gültige Tokens erzeugen und so unberechtigten Zugriff erlangen.
 
