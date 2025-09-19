@@ -59,6 +59,13 @@ Füge in deinem pom.xml folgende Dependencies hinzu:
 
 Auf [Maven Central](https://central.sonatype.com/) findest du die aktuellen Versionen zu jedem Artefact.
 
+### Konfiguration von JWT
+
+<img width="470" height="91" alt="image" src="https://github.com/user-attachments/assets/949b6e0c-7db0-4686-8fc8-477bcf6f6f36" />
+
+
+
+
 
 
 
