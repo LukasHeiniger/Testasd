@@ -113,7 +113,7 @@ https://www.jwt.io/
 
 Auf dieser Webseite kannst du deinen erstellten Token genauer anschauen und dir mit deinem Secret auch einen neuen Funktionstüchtiges Token erstellen.
 
-
+<img width="1497" height="840" alt="image" src="https://github.com/user-attachments/assets/0a586dd2-4aa3-473f-9cf7-c7cf42abddc6" />
 
 ## Alternativen zu JSON-Web-Token
 
