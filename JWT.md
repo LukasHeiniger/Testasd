@@ -37,7 +37,7 @@ Ein JWT besteht aus drei Teilen dem Header, Payload und der Signatur. Beim Heade
 
 Füge in deinem pom.xml folgende Dependencies hinzu:
 
-```
+```xml
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt-api</artifactId>
