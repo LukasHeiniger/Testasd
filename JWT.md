@@ -47,10 +47,6 @@ Ein JWT ist in drei Segmente unterteilt, nämlich Header, Payload und Signatur. 
 
 **Beachte, dass dies nur ein Beispiel ist, ein JWT Token kann im Payload weitere Felder beinhalten, diese sind aber für den Anfang aussreichend.**
 
-### Was befindet sich in der Signatur
-
-
-
 
 ## Wie erstelle ich ein JWT Token?
 
