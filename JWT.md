@@ -57,6 +57,10 @@ Füge in deinem pom.xml folgende Dependencies hinzu:
         </dependency>
 ```
 
+Auf Maven Central findest du die aktuellen Versionen zu jedem Artefact.
+
+
+
 ## Wie validiere ich ein JWT Token?
 
 
