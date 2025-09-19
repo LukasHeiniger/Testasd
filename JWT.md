@@ -23,6 +23,15 @@ Ein JWT besteht aus drei Teilen dem Header, Payload und der Signatur. Beim Heade
 | Content Type | cty     | Wird nur benötigt, wenn das JWT im Payload ein anderes JWT mit sich führt ansonsten sollte man darauf verzichten.        |
 | Algorithmus  | alg     | Definiert die Signaturmethode, welche zum einsatz kommt, Beispiel HMAC mit SHA-256 oder auch RSA mit SHA-256 |
 
+```JSON
+
+{
+  "alg": "HS256",
+  "typ": "JWT"
+}
+
+```
+
 **Was befindet sich im  Payload**
 | Name | Feld | Beschreibung |
 | ---- | ---- | ------------ |
