@@ -57,8 +57,8 @@ Füge in deinem pom.xml folgende Dependencies hinzu:
         </dependency>
 ```
 
-Auf Maven Central findest du die aktuellen Versionen zu jedem Artefact.
-https://central.sonatype.com/
+Auf [Maven Central](https://central.sonatype.com/) findest du die aktuellen Versionen zu jedem Artefact.
+
 
 
 
